@@ -13,4 +13,6 @@ The following set of fields is present in the form:
 - date of birth
 - email
 
+After removing the plugin, its settings are deleted from the database.
+
 # IMPORTANTLY!! After downloading the plugin, change the name of the archive to sending-form-data-to-url
