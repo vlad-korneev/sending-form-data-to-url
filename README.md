@@ -12,3 +12,5 @@ The following set of fields is present in the form:
 - gender
 - date of birth
 - email
+
+# IMPORTANTLY!! After downloading the plugin, change the name of the archive to sending-form-data-to-url
