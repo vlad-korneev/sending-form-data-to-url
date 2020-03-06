@@ -14,10 +14,10 @@
                     this_form.remove();
                     message_block.html(data.message);
                 } else {
+                    this_form.find('input').each(function() {
+                        $(this).css({'border': ''});
+                    });
                     if (data.fields.length !== 0) {
-                        this_form.find('input').each(function() {
-                            $(this).css({'border': ''});
-                        });
                         $.each(data.fields, function(index, value) {
                             this_form.find('[name="'+value+'"]').css({'border': '1px solid red'});
                         });
